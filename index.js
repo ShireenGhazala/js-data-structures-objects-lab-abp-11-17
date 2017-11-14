@@ -5,3 +5,4 @@ function updateDriverWithKeyAndValue(driver, key, value){
   newDriver[key]='value';
   return newDriver;
 }
+updateDriverWithKeyAndValue(driver, 'address' , '11 Broadway');
